@@ -1,0 +1,42 @@
+* {
+    line-height: 1.5;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+table , td, th, tr {
+    border: 1px solid #d3d3d3;
+    border-collapse: collapse;
+}
+
+table {
+    margin: 0 auto;
+}
+
+th, td, tr {
+    padding: 10px;
+}
+
+th {
+    background-color: #DBF0F7;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.html {
+    color: red;
+    background-color: #ececec;
+    padding: 5px;
+    border-radius: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+}
+
+td.description {
+    width: 600px;
+}

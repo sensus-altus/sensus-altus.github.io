@@ -1,9 +1,93 @@
+<!DOCTYPE html>
 <html>
- 
-<body>
-  <h1>YOUR NAME</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+    <head>
+        <title>CSS display and positioning cheatsheet</title>
+        <link href='./styles.css' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>CSS display and positioning cheatsheet</h1>
+        <p>Here are some key concepts relating to display and positioning in CSS, covered by Codecademy.</p>
+        <br>
+        <table>
+            <tr>
+                <th scope="col">HTML tag</td>
+                <th scope="col">Values</td>
+                <th scope="col">Description</td>
+            </tr>
+            <tr>
+                <td rowspan="5"><span class="html">position</span></td>
+                <td><span class="html">static</span></td>
+                <td class="description">Default position for an element.</td>
+            </tr>
+            <tr>
+                <td><span class="html">relative</span></td>
+                <td class="description">Positioned relative to element’s default position. </td>
+            </tr>
+            <tr>
+                <td><span class="html">absolute</span></td>
+                <td class="description">Positioned relative to element's parent element. Other elements behave as if the element is not present. Allows for overlap.  </td>
+            </tr>
+            <tr>
+                <td><span class="html">fixed</span></td>
+                <td class="description">Positioned relative to the browser window. Element is removed from flow of document and stays in the same position as user scrolls. Always in view.  </td>
+            </tr>
+            <tr>
+                <td><span class="html">sticky</span></td>
+                <td class="description">Like <span class="html">fixed</span> but allows reset of the elements to scroll over to cover it. </td>
+            </tr>
+            <tr>
+                <td rowspan="1"><span class="html">z-index</span></td>
+                <td>integer values</td>
+                <td class="description">Depth of elements controlling order of layered elements. <br>Doesn’t work on <span class="html">static</span> elements. </td>
+            </tr>
+            <tr>
+                <td rowspan="3"><span class="html">display</span></td>
+                <td><span class="html">inline</span></td>
+                <td class="description">Make any element inline. </td>
+            </tr>
+            <tr>
+                <td><span class="html">block</span></td>
+                <td class="description">Make any element a block. </td>
+            </tr>
+            <tr>
+                <td><span class="html">inline-block</span></td>
+                <td class="description">Displays blocks that can be side by side but with specified <span class="html">width</span> and <span class="html">height</span>. </td>
+            </tr>
+            <tr>
+                <td rowspan="2"><span class="html">float</span></td>
+                <td><span class="html">left</span></td>
+                <td class="description">Align left and wrap other elements (like text) around it. Must have width specified. </td>
+            </tr>
+            <tr>
+                <td><span class="html">right</span></td>
+                <td class="description">Align right and wrap other elements around it.</td>
+            </tr>
+            <tr>
+                <td rowspan="4"><span class="html">clear</span></td>
+                <td><span class="html">left</span></td>
+                <td class="description">Left of element will not touch any other element within the same containing element. </td>
+            </tr>
+            <tr>
+                <td><span class="html">right</span></td>
+                <td class="description">Right of element will not touch any other element within the same containing element. </td>
+            </tr>
+            <tr>
+                <td><span class="html">both</span></td>
+                <td class="description">Neither side of element will touch.</td>
+            </tr>
+            <tr>
+                <td><span class="html">none</span></td>
+                <td class="description">Element can touch either side (default).</td>
+            </tr>
+        </table>
+    </body>
+    <br>
+    <br>
+    <footer>
+        © 2023 YC
+    </footer>
 </html>
